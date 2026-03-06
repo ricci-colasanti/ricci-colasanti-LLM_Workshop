@@ -1,8 +1,8 @@
-# Meta‑Llama‑3‑8B‑Instruct demo
+# mistral-7b‑Instruct demo
 
 This notebook demonstrates how to:
 
-1. **Download** the `Meta‑Llama‑3‑8B‑Instruct‑Q4_K_M.gguf` model from Hugging Face using `requests` (streamed download, no external progress‑bar libraries required).  
+1. **Download** the `mistral-7b-instruct-v0.2.Q4_K_M.gguf` model from Hugging Face using `requests` (streamed download, no external progress‑bar libraries required).  
 2. **Load** the model with `llama_cpp.Llama`, configuring a 32 k token context and automatic thread detection.  
 3. **Query** the model via `create_chat_completion` and display the response.
 
